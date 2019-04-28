@@ -15,6 +15,7 @@
 		3107990C227586EF00D341E7 /* billTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107990B227586EF00D341E7 /* billTests.swift */; };
 		31079917227586F000D341E7 /* billUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31079916227586F000D341E7 /* billUITests.swift */; };
 		31079925227588CC00D341E7 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31079924227588CC00D341E7 /* NextViewController.swift */; };
+		3107992722759B9B00D341E7 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107992622759B9B00D341E7 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		31079916227586F000D341E7 /* billUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billUITests.swift; sourceTree = "<group>"; };
 		31079918227586F000D341E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31079924227588CC00D341E7 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		3107992622759B9B00D341E7 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		310798F5227586EF00D341E7 /* bill */ = {
 			isa = PBXGroup;
 			children = (
+				3107992622759B9B00D341E7 /* PostViewController.swift */,
 				310798F6227586EF00D341E7 /* AppDelegate.swift */,
 				310798F8227586EF00D341E7 /* ViewController.swift */,
 				310798FA227586EF00D341E7 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3107992722759B9B00D341E7 /* PostViewController.swift in Sources */,
 				310798F9227586EF00D341E7 /* ViewController.swift in Sources */,
 				31079925227588CC00D341E7 /* NextViewController.swift in Sources */,
 				310798F7227586EF00D341E7 /* AppDelegate.swift in Sources */,

@@ -8,6 +8,10 @@ class NextViewController: UIViewController {
     
     @IBOutlet weak var result: UILabel!
     
+    
+    @IBOutlet weak var sentence: UILabel!
+    @IBOutlet weak var image: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -18,7 +22,7 @@ class NextViewController: UIViewController {
         
         label.text = "あなたの年収は\(month)万円です"
         
-        result.text = "\(bill)秒で稼ぎます。"
+        result.text = "\(bill)秒"
     }
     
 }
