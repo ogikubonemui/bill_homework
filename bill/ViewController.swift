@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func backToTop(segue: UIStoryboardSegue) {}
 
 }
 
